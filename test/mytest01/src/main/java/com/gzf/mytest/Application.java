@@ -2,12 +2,14 @@ package com.gzf.mytest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-public class Mytest01Application {
+@MapperScan(basePackages = "com.gzf.mytest.mapper")
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Mytest01Application.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
