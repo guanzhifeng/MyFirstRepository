@@ -1,24 +1,5 @@
-# blog
+# BLOG
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 个人搭建博客练习
+ ## 搭建好脚手架
+ ## 设置首页以及登录按钮

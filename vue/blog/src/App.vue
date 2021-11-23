@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-	<h1>你好,我是测试网页</h1>
+    <router-view></router-view>
+    <main-tab-bar />
   </div>
 </template>
 
 <script>
+import MainTabBar from '@/components/MainTabBar.vue';
 
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    MainTabBar
+  }
 }
+
 </script>
 
 <style>
-
+@import "assets/css/base.css";
 </style>
